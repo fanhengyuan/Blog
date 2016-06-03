@@ -1,6 +1,6 @@
 This is a Demo only for learning python.
 
-这是学习python的实践代码，为学习[廖雪峰官网教程]实践
+这是学习python的实践代码，为学习[廖雪峰官网教程]实践。
 
 一些官方参考文档：
 ===
