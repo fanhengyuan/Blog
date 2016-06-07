@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-import orm, asyncio
+import orm, asyncio, sys
 from models import User, Blog, Comment
 
 async def test(loop):
@@ -15,4 +15,5 @@ loop = asyncio.get_event_loop()
 loop.run_until_complete(test(loop))
 loop.close()
 if loop.is_closed():
-    exit(0)
+    print('db closed')
+    sys.exit(0)
